@@ -1,0 +1,29 @@
+:root{
+--font-cartoonish: font-family: 'Hachi Maru Pop', cursive;
+--font-default: font-family: 'Poppins', sans-serif;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  --webkit-box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  --webkit-box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-default);
+    font-weight: 400;
+    font-size: 16px;
+}
